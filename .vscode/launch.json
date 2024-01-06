@@ -9,9 +9,10 @@
       "type": "python",
       "request": "launch",
       "module": "uvicorn",
-      "args": ["echo.echo:app", "--reload"],
+      "args": ["echo.main:app", "--reload"],
       "jinja": true,
-      "justMyCode": true
+      "justMyCode": true,
+      "console": "internalConsole"
     }
   ]
 }
